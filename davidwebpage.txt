@@ -6,34 +6,29 @@
   <title>Extreme Goldfish Angling With David</title>
   <style>
     body {
-      background: linear-gradient(45deg, #ffe066, #ffcc5c);
-      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #fff8dc;
+      font-family: Arial, sans-serif;
       text-align: center;
-      padding: 2rem;
-      color: #ff6f00;
+      padding: 50px;
     }
     h1 {
-      font-size: 3rem;
-      text-shadow: 2px 2px #fff1b6;
+      color: #ff4500;
     }
     img {
-      max-width: 300px;
+      width: 300px;
       margin-top: 20px;
     }
     button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      font-size: 16px;
       background-color: #ffa500;
       border: none;
-      padding: 15px 25px;
-      font-size: 1.2rem;
-      font-weight: bold;
-      color: white;
-      border-radius: 10px;
-      margin-top: 30px;
+      border-radius: 5px;
       cursor: pointer;
-      box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
     }
     button:hover {
-      background-color: #ff7f00;
+      background-color: #ff8c00;
     }
   </style>
 </head>
@@ -41,6 +36,6 @@
   <h1>Extreme Goldfish Angling With David</h1>
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Goldfish-Cracker.jpg/640px-Goldfish-Cracker.jpg" alt="Goldfish Cracker" />
   <br />
-  <button onclick="alert('David warned you. Now you’re part of the angling.')">Don’t eat the bait</button>
+  <button onclick="alert('Don’t eat the bait!')">Don’t eat the bait</button>
 </body>
 </html>
